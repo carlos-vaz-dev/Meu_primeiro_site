@@ -1,0 +1,283 @@
+@import url('../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+@import url('../fonts/Roboto/Roboto-Thin.ttf');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #292d33;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+header a{
+    color: #ccd3cc;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0px 7px ;
+}
+
+.imagetopo {
+    width: 100%;
+    height: 500px;
+    background-image: url('../assets/Imagens/topoesfumacado.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.primeira{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0px 260px;
+}
+.primeira div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+    width: 360px;
+    height: 360px;
+    padding: 4px 30px;
+    margin-top: -90px;
+}
+
+#primeiro{
+    background-color: #3089b3;
+}
+
+#segundo{
+    background-color: #f57906;
+}
+
+#terceiro{
+    background-color: #f53e06;
+}
+
+.primeira h1{
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 350;
+}
+
+.primeira img{
+    height: 75px;
+    margin-bottom: 40px;
+}
+.primeira p{
+    font-family: 'Opens Sans', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.segunda{
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 340px 0px 340px;
+    color: white;
+    height: 589px;
+}
+
+.segunda h1{
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 350px;
+}
+.segunda h3{
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 350;
+    margin: 10px 0px 0px;
+}
+
+.segunda p{
+    font-family: 'Opens Sans', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 42px 0px 0px;
+}
+
+#aventura{
+    font-size: 60px;
+    color: white;
+    padding: 30px;
+    font-weight: bolder;
+}
+.botao_reserva {
+    color:white;
+    background-color: #f57906;
+    font-size: 16px;
+    font-family: 'Opens Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 100;
+    padding: 10px 30px;
+}
+
+#aventura h1{
+    font-family:'Roboto';
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+}
+
+.aventura1 h1{
+    font-family:'Roboto';
+    font-size: 400px;
+    font-weight: bolder;
+    color: white;
+    margin: 0px 20px 0px 42px;
+    padding-top: 80px;
+}
+
+.terceira {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 50px 480px 0px 480px;
+}
+
+#foto1{
+    padding: 50px;
+}
+
+#foto2{
+    padding: 0px 0px 0px 23px;
+}
+
+#foto3{
+    padding: 0px 0px 20px 0px;
+}
+
+.texto-kombi h1{
+    font-family:'Roboto';
+    font-size: 40px;
+    color: white;
+    font-weight: 300;
+}
+
+.texto-kombi p{
+    font-family: 'Opens Sans', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    padding: 10px 0px 0px 0px;
+}
+.quarta{
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 420px 0px 420px;
+    color: white;
+}
+.quarta h1{
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 350px;
+}
+.quarta h3{
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 350;
+    margin: 10px 0px 0px;
+}
+
+.quarta p{
+    font-family: 'Opens Sans', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 42px 0px 0px;
+}
+.quarta ul{
+    font-size: 2em;
+    font-family: 'roboto';
+}
+.texto-lista{
+    padding: 200px 0px 0px 0px;
+}
+
+.quinta{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 390px 0px 390px;
+}
+
+.quinta img{
+    object-fit: cover;    
+}
+
+.quinta ul{
+    font-family: 'Opens Sans', sans-serif;
+    padding: 0px 0px 100px 15px;
+    color: white;
+    list-style: none;
+    font-size: 18px;
+}
+.sexta{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 380px 0px 380px;
+}
+.sexta h4{
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 350px;
+    color: white;
+}
+.sexta h2{
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 350;
+    margin: 10px 0px 0px;
+    color: #f57906;
+}
+
+.sexta p{
+    font-family: 'Opens Sans', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 42px 0px 40px 0px;
+    color: #ccd3cc;
+    letter-spacing: 0.6px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    background-color: #333333;
+    color: white;
+    
+}
+
+footer a{
+    color: gray;
+}
+
+footer p{
+    padding: 50px 0px;
+}
